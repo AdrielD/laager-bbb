@@ -85,5 +85,6 @@ O Voter Spawner é um script em Go que cria N votadores e mantém rodando em
 loop por 1 hora (ou até dar CTRL+C).
 
 O spawner aceita o argumento `-voter=N`, sendo N a quantidade de votadores desejada.
+Cada spawner levar de 1 a 10 segundos (aleatoriamente) para votar de novo. 
 
-##### Importante: ainda estou aprendendo Go, portanto não está o código mais limpo ou eficiente (ex:testei com 10.000 voters e o spawner morreu por falta de memória... mas o Sinatra aguentou! :D ). A ideia aqui foi aproveitar que estou estudando a linguagem para brincar e fazer um "teste de carga", ainda que eu não tenha atacado os items diferenciais do exercício.
+##### Importante: ainda estou aprendendo Go, portanto não está o código mais limpo ou eficiente (ex: testei com 10.000 voters e o spawner morreu por falta de memória... mas o Sinatra aguentou! :D ). A ideia aqui foi aproveitar que estou estudando a linguagem para brincar e fazer um "teste de carga", ainda que eu não tenha atacado os items diferenciais do exercício.
