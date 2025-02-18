@@ -1,0 +1,18 @@
+services:
+  laager-bbb-api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: laager-bbb-api
+    ports:
+      - "4000:4000"
+
+  laager-bbb-web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    container_name: laager-bbb-web
+    depends_on:
+      - laager-bbb-api
+    ports:
+      - "3000:3000"

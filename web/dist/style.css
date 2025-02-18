@@ -1,0 +1,67 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  padding: 10px 15px;
+  color: #eee;
+  background-color: #4f4fee;
+  font-weight: 700;
+  font-size: 38px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #5a5add;
+}
+
+button:active {
+  background-color: #4141cc;
+}
+
+img {
+  width: inherit;
+  height: inherit;
+  object-fit: fill;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#wrapper {
+  display: flex;
+  gap: 12px;;
+}
+
+.candidate-container {
+  width: 450px;
+  height: 500px;
+  position: relative;
+  display: flex;
+}
+
+#result-faustao, #result-silvio {
+  padding: 10px 15px;
+  color: #eee;
+  background-color: #000;
+  font-weight: 700;
+  font-size: 38px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  text-align: center;
+}
